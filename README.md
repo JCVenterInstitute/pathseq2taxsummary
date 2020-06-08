@@ -20,7 +20,7 @@ To run pathseq2taxsummary example datasets, cd into the desired directory (e.g.,
 
 4. Filter out specific taxa if desired.  In this example, we pulled only "Viruses"
  * grep "Viruses" combined_scores_taxsummary_amb.txt >> combined_virus_scores_taxsummary_amb.txt
- * grep "Viruses" combined_scores_taxsummary_amb.txt >> combined_virus_scores_taxsummary_unamb.txt
+ * grep "Viruses" combined_scores_taxsummary_unamb.txt >> combined_virus_scores_taxsummary_unamb.txt
 
 ## Usage
 
