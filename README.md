@@ -12,11 +12,11 @@ To run pathseq2taxsummary example datasets, cd into the desired directory (e.g.,
 
 2. Make the .taxsummary file for PathSeq "ambiguous" mapped read counts (see https://gatkforums.broadinstitute.org/gatk/discussion/10913/how-to-run-the-pathseq-pipeline for definitions)
 
- * pathseq2taxsummery.pl -s combined_scores.txt > combined_scores_taxsummary_amb.txt
+ * ../../pathseq2taxsummery.pl -s combined_scores.txt > combined_scores_taxsummary_amb.txt
 
 3. Make the .taxsummary file for PathSeq "unambiguous" mapped read counts (see https://gatkforums.broadinstitute.org/gatk/discussion/10913/how-to-run-the-pathseq-pipeline for definitions)
 
- * pathseq2taxsummery.pl -s combined_scores.txt -u > combined_scores_taxsummary_unamb.txt
+ * ../../pathseq2taxsummery.pl -s combined_scores.txt -u > combined_scores_taxsummary_unamb.txt
 
 4. Filter out specific taxa if desired.  In this example, we pulled only "Viruses"
  * head -1 combined_scores_taxsummary_amb.txt > combined_virus_scores_taxsummary_amb.txt 
