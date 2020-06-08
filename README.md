@@ -45,7 +45,19 @@ Two example datasets from Lang et. al. and Jiang et. al.
 A PERL script that generates a MOTHUR style tax.summary file (https://mothur.org/wiki/summary.tax/) from a slightly modified and concatenated PathSeq (http://software.broadinstitute.org/pathseq/) scores.txt file, which can then be used to make various plots and to compute various statistics using R or other software packages.
 
 ### examples_dir
-A directory containing two directories of example data for generating tax.summary files from Lang et. al. and Jiang et. al.
+A directory containing 3 .tar.bz archives of two directories of example data for generating tax.summary files from Lang et. al. and Jiang et. al.
+
+To unarchive Lang_dir.tar.bz (in the examples_dir):
+
+* cd examples_dir
+* tar -xvjf Lang_dir.tar.bz
+
+To unarchive and combined the 2 Jiang et. al. archives (split due to size restrictions) into a single Jiang_dir folder:
+
+* cd examples_dir
+* mkdir Jiang_dir
+* tar -xvjf Jiang_dir_a.tar.bz -C Jiang_dir --strip-components=1
+* tar -xvjf Jiang_dir_b.tar.bz -C Jiang_dir --strip-components=1
 
 ## Dependencies
 
