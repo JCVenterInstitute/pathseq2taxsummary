@@ -127,8 +127,8 @@ sub get_number  { # written by Toby Clarke to generate the MOTHUR-style taxsumma
     my @sort = sort { $a cmp $b } @list;
     my $c = "";
     for ($i = 0; $i < scalar(@sort); $i++)  {
+	$c = $i + 1; # 04Jan2021, moved this from within the following condition so that the final level will be numbered
 	if (exists($hash->{$sort[$i]}->{children})) { # needed to check for this or else empty values spring up.
-	    $c = $i + 1;
 	    &get_number($hash, $sort[$i], $curr_val . "." . ($c));
 	}
 	$hash->{$sort[$i]}->{'id'} = $curr_val . "." . ($c);
