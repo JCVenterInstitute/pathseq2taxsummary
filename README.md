@@ -70,9 +70,9 @@ To unarchive and combined the 2 Jiang et. al. archives (split due to size restri
 
 The following publications used this program to generate linear illustrations of bacteriophage genomes and should be used to site this program:The following publications used this program to convert a slightly modified and concatenated PathSeq (http://software.broadinstitute.org/pathseq/) scores.txt file to a  MOTHUR style tax.summary file (https://mothur.org/wiki/summary.tax/), which can then be used to make various plots and to compute various statistics using R or other software packages.:
 
-Lang S, Demir M, Martin A, Jiang L, Zhang X, Duan Y, Gao B, Wisplinghoff H, Kasper P, Roderburg C, Tacke F, Steffen H-M, Goeser T, Abraldes J G, Tu X M, Loomba R, Pride D, Fouts D E, Schnabl B. Intestinal virome signature associated with non-alcoholic steatohepatitis and fibrosis. Gastroenterology. in press.
+Lang S, Demir M, Martin A, Jiang L, Zhang X, Duan Y, Gao B, Wisplinghoff H, Kasper P, Roderburg C, Tacke F, Steffen HM, Goeser T, Abraldes JG, Tu XM, Loomba R, Starkel P, Pride D, Fouts DE, Schnabl B. Intestinal Virome Signature Associated With Severity of Nonalcoholic Fatty Liver Disease. Gastroenterology. 2020;159(5):1839-52. Epub 2020/07/12. PubMed PMID: 32652145.
 
-Jiang L, Lang S, Duan Y, Zhang X, Gao B, Chopyk J, Schwanemann L K, Ventura-Cots M, Bataller R, Bosques-Padilla F, Verna E C, Abraldes J G, Brown Jr R S, Vargas V, Altamirano J, Caballería J, Shawcross D L, Ho S B, Louvet A, Lucey M R, Mathurin P, Garcia-Tsao G, Kisseleva T, Brenner D A, Tu X M, Stärkel P, Pride D, Fouts D E and Schnabl B. Intestinal virome in patients with alcoholic hepatitis. Hepatology. in press.
+Jiang L, Lang S, Duan Y, Zhang X, Gao B, Chopyk J, Schwanemann LK, Ventura-Cots M, Bataller R, Bosques-Padilla F, Verna EC, Abraldes JG, Brown RS, Jr., Vargas V, Altamirano J, Caballeria J, Shawcross DL, Ho SB, Louvet A, Lucey MR, Mathurin P, Garcia-Tsao G, Kisseleva T, Brenner DA, Tu XM, Starkel P, Pride D, Fouts DE, Schnabl B. Intestinal virome in patients with alcoholic hepatitis. Hepatology. 2020. Epub 2020/07/13. PubMed PMID: 32654263.
 
 ## Contact
 Derick E. Fouts
